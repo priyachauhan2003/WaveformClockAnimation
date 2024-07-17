@@ -103,7 +103,7 @@ fun WaveformClock() {
         // Draw minute hand
         rotate(degrees = (minutes + seconds / 60f) * 6f) {
             drawLine(
-                color = Color.White,
+                color = Color.Gray,
                 start = androidx.compose.ui.geometry.Offset(centerX, centerY),
                 end = androidx.compose.ui.geometry.Offset(centerX, centerY - radius * 0.7f),
                 strokeWidth = 6f,
